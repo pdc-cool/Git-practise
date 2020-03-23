@@ -96,5 +96,22 @@
      */
 
      /**
-      * 撤销操作
+      * 撤销操作:
+      * git commit --amend 重新提交
       */
+
+      /**
+       * 打标签：tag
+       */
+      // 查看 tag
+      // git tag
+
+      // 创建附注标签
+    //   git tag -a v1.2 -m 'my version 1.2'
+
+    // 删除标签
+    // Delete tag 'v1.2'
+
+    /**
+     * 分支:https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B
+     */
