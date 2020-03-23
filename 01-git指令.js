@@ -81,3 +81,9 @@
     * 1.rm + git commit -am "abc"
     * 2.git rm + git commit -m "abc"
     */
+   // 删除文件：git rm text1.txt
+   // 删除文件夹： git rm -r mydir
+
+   /**
+    * 移动文件：git mv README.md README（相当于重命名）
+    */
