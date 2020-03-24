@@ -46,7 +46,7 @@
 // 1. git checkout master
 // 2. git branch hotfix
 // 3. git checkout hotfix    /git checkout -b hotfix 为2.3步骤的缩写
-// 4. 在 hotfix 修改提交到远程 git push origin hotfix(此时远程仓库新增了了 hotfix 分支)
+// 4. git push origin hotfix(此时远程仓库新增了了 hotfix 分支)
 // 5. 可以使用 git branch -a 查看本地分支和远程分支
 // 6. 删除远程分支 git push origin --delete dev
 // 7. 删除本地分支 git branch -d hotfix
