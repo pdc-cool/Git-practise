@@ -60,3 +60,16 @@
 
 // 版本回退
 // git reset --hard commit_id 
+
+/**
+ * git fetch 和 git pull 区别
+ */
+// git fetch: 相当于从远程分支获取最新版本到本地，不会自动 merge
+// git pull：从远程获取最新的版本到本地，之后再及逆行比较合并
+
+// 使用 git fetch
+// git fetch origin master
+// git merge origin/master
+
+// 使用 git pull
+// git pull origin master
