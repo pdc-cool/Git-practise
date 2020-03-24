@@ -33,3 +33,6 @@
 // $ git commit -a -m 'fixed the broken email address'
 // $ git checkout master
 // $ git merge hotfix
+
+// 删除远程 dev 分支
+// git push origin --delete dev
