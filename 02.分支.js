@@ -38,7 +38,7 @@
 // git push origin --delete dev
 
 // 删除本地分支
-// git branch -d hotfix
+// git branch -d hotfix: 但是还未合并的工作，删除会失败，如果想强制删除可以使用 -D 选项强制删除
 
 /**
  * 创建分支 hotfix
@@ -50,3 +50,10 @@
 // 5. 可以使用 git branch -a 查看本地分支和远程分支
 // 6. 删除远程分支 git push origin --delete dev
 // 7. 删除本地分支 git branch -d hotfix
+
+/**
+ * 分支管理
+ */
+// git branch:不加参数会得到当年所有分支的一个列表
+// git branch -v: 除了列表（还能得到每一个分支的最后一次提交）
+// git branch --merged/git branch --no-merged：分别可以过滤这个列表中已经合并或者尚未合并到当前分支的分支
