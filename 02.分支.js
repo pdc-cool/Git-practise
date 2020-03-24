@@ -36,3 +36,10 @@
 
 // 删除远程 dev 分支
 // git push origin --delete dev
+
+/**
+ * 创建分支 hotfix
+ */
+// 1. git checkout master
+// 2. git branch hotfix
+// 3. git checkout hotfix    /git checkout -b hotfix 为2.3步骤的缩写
