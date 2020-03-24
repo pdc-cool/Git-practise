@@ -57,3 +57,6 @@
 // git branch:不加参数会得到当年所有分支的一个列表
 // git branch -v: 除了列表（还能得到每一个分支的最后一次提交）
 // git branch --merged/git branch --no-merged：分别可以过滤这个列表中已经合并或者尚未合并到当前分支的分支
+
+// 版本回退
+// git reset --hard commit_id 
