@@ -84,12 +84,14 @@
     * 常见的两种做法：
     * 1.rm + git commit -am "abc"
     * 2.git rm + git commit -m "abc"
+    * 3.git rm: 删除工作区文件 再将文件放入暂存区
+    * 4.rm: 只是删除文件，并没有将文件放入暂存区
     */
    // 删除文件：git rm text1.txt
    // 删除文件夹： git rm -r mydir
 
    /**
-    * 移动文件：git mv README.md README（相当于重命名）
+    * 移动文件：git mv README.md README（相当于重命名）将工作目录的文件进行重命名，再将修改添加到暂存区
     */
 
     /**
