@@ -2,6 +2,7 @@
 // git config <key>: 检查某一项设置，例如 git config user.name
 // git config <key> value: 设置某一项设置,例如 git config --global user.name "pdc"
 
+// git 对象相当于文件的一次次版本， tree 对象相当于项目的一次次版本
 /**
  * 获取 git 查询手册
  */
@@ -21,6 +22,9 @@
  * 检查当前文件状态
  */
 // git status
+
+// 查看暂存区命令
+// git ls-files -s
 
 /**
  * git add :可以用它开始跟踪新文件，或者把已跟踪的文件放到暂存区，还能用于合并时把有冲突的文件标记为已解决状态等
